@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title></title>   
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+        <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> -->
+        <link href="./css/app.css" rel="stylesheet" />  
+    </head>  
+    <body>
+
+        <div class="coupon-container">
+            <div class="coupon-wrapper">
+                <div class="coupon-wrapper__left">
+                    <h1>
+                        Få en gratis
+                        <span>
+                            <br>
+                            PEPSI MAX
+                        </span>
+                    </h1>
+                    <img src="https://pepsimax.se/images/default-source/campaigns/sponsor_max.png">
+                    <div class="coupon__texts">
+                        <p>
+                            Skriv in ditt mobilnummer och få ett SMS med en kupong som ger dig en gratis Pepsi MAX 50cl eller 1,5L flaska. Pant tilkommer i butik.
+                        </p>
+                        <p>
+                            En kupong per telefonnummer och endast giltigt för personer över 16 år, bosatta i Sverige och med ett svenskt mobilnummer. Se fullständiga villkor nedan.
+                        </p>
+                        <form id="digitalCoupon">
+                            <input id="phoneNumber" name="Phone" placeholder="mobilnummer" class="input-mobile" maxlength="30">
+                            <input class="coupon__button" value="Skicka in" id="submitBtn" type="submit">
+                        </form>
+                    </div>
+                </div>
+                <div class="counpon-wrapper__right"><img src="https://pepsimax.se/images/default-source/campaigns/coupon-christmas-packshot-small.png"></div>
+            </div>
+        </div>
+
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
+        <script src="./js/app.js"></script>
+    </body>
+</html>

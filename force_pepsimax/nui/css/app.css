@@ -1,0 +1,109 @@
+.coupon-container {
+    display: none;
+    background-image: url(https://cdn.discordapp.com/attachments/915603199589756959/976457253706137620/coupon-background.png);
+    background-size: 1700px 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "AvenirNext-Regular",sans-serif;
+}
+
+.coupon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 60%;
+    padding-top: 100px;
+    /* padding-bottom: 100px; */
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: calc(100vh - 200px);
+    overflow-y: hidden;
+}
+
+.coupon-wrapper__left {
+    margin-right: 0;
+    padding-left: 50px;
+    width: 80%;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 58px;
+    text-align: left;
+    font-family: "MontrealTS-HeavyIta",sans-serif;
+}
+
+h1 span {
+    color: #008ddb;
+}
+
+.coupon-wrapper__left img {
+    max-width: 50%;
+    margin-bottom: 10px;
+}
+
+.coupon__texts {
+    width: 80%;
+    margin-left: 0;
+}
+
+p {
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+}
+
+.input-mobile {
+    width: 382px;
+    height: 46px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 0 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 5px;
+    border-radius: 5px;
+}
+
+.coupon__link {
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.coupon__button {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 19px;
+    text-transform: uppercase;
+    width: 210px;
+    height: 46px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: pointer;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: "MontrealTS-HeavyIta",sans-serif;
+}
